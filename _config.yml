@@ -19,7 +19,7 @@ title: Never Network # the main title
 tagline: Improving AI products and upskilling engineering teams on LLMs # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Improving AI products, upskilling engineering teams on LLMs, making the Wold a better place.
+  Improving AI products, upskilling engineering teams on LLMs, making the World a better place.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -46,7 +46,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: "Vre30rvQXyZFXEzMm2kZ5HntP49yJ2l4rMVSFq7TW1Q" # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-X5680KP2FH # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
