@@ -18,6 +18,6 @@ Kubernetes (k8s) is often the go-to for orchestrating applications in the cloud,
 * **Kubernetes Suffers from Sluggish Deployment Scaling:** Scaling up LLM deployments with Kubernetes can be an exercise in patience. It can take an agonizingly long time, sometimes up to 20 minutes,  for a server to be ready to handle requests after a scale-up decision. This delay stems from several time-consuming processes inherent in Kubernetes:
     * **Cloud Provisioning:** Requesting and configuring new resources from the cloud provider takes time.
     * **Frontend Revisioning:** Updating the frontend components to reflect the scaled-up backend can be slow.
-    * **Model Loading:** Downloading and loading large LLM models into memory on new instances is a significant bottleneck. 
+    * **Model Loading:** Downloading and loading large LLM models into memory on new instances is a significant bottleneck.
 
-**Concurrency-based scaling** emerges as a more fitting approach for LLMs. This method prioritizes metrics like queue size, wait time, and batch size, dynamically adjusting resources to meet specific latency targets. However, realizing this advantage necessitates specialized infrastructure and a serving layer capable of interpreting and acting upon these metrics.  
+**Concurrency-based scaling** emerges as a more fitting approach for LLMs. This method prioritizes metrics like queue size, wait time, and batch size, dynamically adjusting resources to meet specific latency targets. However, realizing this advantage necessitates specialized infrastructure and a serving layer capable of interpreting and acting upon these metrics.
